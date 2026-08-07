@@ -9,7 +9,6 @@ type Props = { contentLanguage: string }
 const { contentLanguage } = Astro.props
 ---
 
-<div class="system-bar"><div class="shell system-inner"><span><i aria-hidden="true"></i> {ui.live}</span><span>{ui.sources} · {ui.published}</span></div></div>
-<header class="site-header"><div class="shell header-inner"><a class="brand" href={languageHomePath(contentLanguage)} aria-label={`${siteConfig.name} · ${ui.home}`}><span class="brand-mark" aria-hidden="true"><b></b><b></b><b></b></span><span>{siteConfig.name}</span></a><PrimaryNavigation contentLanguage={contentLanguage} /><LanguageSwitcher contentLanguage={contentLanguage} /></div></header>
+<div class="arcade-top"><div class="shell"><span>{ui.live}</span><span>{ui.monitoring}</span></div></div><header class="site-header"><div class="shell header-inner"><a class="brand" href={languageHomePath(contentLanguage)} aria-label={`${siteConfig.name} · ${ui.home}`}><span class="arcade-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>{siteConfig.name}</span></a><PrimaryNavigation contentLanguage={contentLanguage} /><LanguageSwitcher contentLanguage={contentLanguage} /></div></header>
 <main id="main-content"><slot /></main>
-<footer class="site-footer"><div class="shell footer-grid"><div><p class="footer-label">{ui.published}</p><strong>{siteConfig.name}</strong></div><div><p class="footer-label">{ui.disclosure}</p><p>{siteConfig.aiDisclosure}</p></div><FooterAttribution className="footer-note" /></div><FooterNavigation contentLanguage={contentLanguage} /></footer>
+<footer class="site-footer"><div class="shell footer-grid"><div><p class="arcade-label">{ui.published}</p><strong>{siteConfig.name}</strong></div><div><p class="arcade-label">{ui.disclosure}</p><p>{siteConfig.aiDisclosure}</p></div><FooterAttribution /></div><FooterNavigation contentLanguage={contentLanguage} /></footer>
