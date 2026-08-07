@@ -1,0 +1,31 @@
+{
+  "url": "https://gamefront.staging.publume.dev/",
+  "name": "游戏前线",
+  "description": "面向玩家与游戏行业观察者，聚合新作、更新、评测与产业动态。",
+  "tagline": "只看值得关注的游戏动态",
+  "locale": "zh-CN",
+  "outputLanguages": [
+    "zh-CN"
+  ],
+  "defaultContentLanguage": "zh-CN",
+  "publisherName": "游戏前线",
+  "authorName": "游戏前线",
+  "contactUrl": "",
+  "aiDisclosure": "",
+  "socialImageUrl": "",
+  "newsletterUrl": "",
+  "sponsorUrl": "",
+  "theme": "default",
+  "primaryColor": "#2563eb",
+  "accentColor": "#0891b2",
+  "backgroundColor": "#ffffff",
+  "surfaceColor": "#f8fafc",
+  "textColor": "#0f172a",
+  "mutedColor": "#64748b",
+  "maxWidth": "1180px",
+  "cardRadius": "16px",
+  "showTopics": true,
+  "showScore": false,
+  "showSources": true,
+  "footerText": ""
+}
